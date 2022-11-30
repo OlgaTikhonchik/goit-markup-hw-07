@@ -1,0 +1,122 @@
+.footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.page-footer__container {
+  @extend %container;
+}
+
+.address {
+  width: 231px;
+  margin-right: 70px;
+}
+
+.page-footer {
+  display: flex;
+  align-items: baseline;
+  background-color: $secondary-bg-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.inscription {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: $white-color;
+  @extend %link;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.inscription__accent {
+  color: $accent-color;
+}
+.address__text {
+  margin-bottom: 9px;
+  color: $white-color;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.address__link {
+  @extend %link;
+  display: inline-block;
+  @extend %list;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address__number {
+  color: rgba(255, 255, 255, 0.6);
+  @extend %link;
+  @extend %list;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-social {
+  margin-right: 93px;
+}
+
+.footer-social__title {
+  display: block;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-color;
+  margin-bottom: 20px;
+}
+
+.footer-social__list {
+  display: flex;
+  gap: 10px;
+  @extend %list;
+}
+
+.footer-social__link {
+  @extend %link;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: $white-color;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: background-color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+
+  &:hover svg,
+  &:focus svg {
+    fill: $white-color;
+  }
+}
+
+.footer-social__link svg {
+  transition: fill 250ms $timing-function;
+}
+
+.footer-social__icon {
+  fill: currentColor;
+}

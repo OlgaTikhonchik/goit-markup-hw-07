@@ -1,9 +1,6 @@
 .teams {
   @extend %section;
   background-color: $tertiary-bg-color;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .teams__container {
@@ -13,7 +10,7 @@
 .teams__title {
   margin-bottom: 50px;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
