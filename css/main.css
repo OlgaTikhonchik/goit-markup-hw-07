@@ -749,7 +749,6 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 90px;
 }
 
 .clients__list {
@@ -760,7 +759,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 30px;
-  padding-bottom: 93px;
 }
 
 .clients__item {
