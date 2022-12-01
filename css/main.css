@@ -250,6 +250,8 @@ img {
 }
 
 .hero__button--primary {
+  border-radius: 4px;
+  border: 1px solid transparent;
   min-height: 50px;
   min-width: 216px;
   color: #ffffff;
@@ -262,7 +264,6 @@ img {
   letter-spacing: 0.06em;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: transparent;
 }
 .hero__button--primary:hover, .hero__button--primary:focus {
   background-color: #188ce8;
@@ -1049,6 +1050,8 @@ img {
   font-family: "Roboto";
   background-color: #f5f4fa;
   cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -1057,7 +1060,6 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: transparent;
 }
 .portfolio__button-secondary:hover, .portfolio__button-secondary:focus {
   color: #ffffff;
